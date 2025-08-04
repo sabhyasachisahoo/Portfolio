@@ -5,7 +5,11 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/Ai-chat.png";
+import project2 from "../../public/images/projects/codereview.png";
+import project3 from "../../public/images/projects/productivity.png";
+import project4 from "../../public/images/projects/studybuddy.png";
+import project5 from "../../public/images/projects/portfolio.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -132,8 +136,8 @@ const projects = () => {
                 title="AI-Integrated Real-Time Chat Application"
                 img={project1}
                 summary="A full-stack chat app with real-time messaging using Socket.io, OpenAI chatbot integration, JWT auth, and MongoDB for persistent data."
-                link="https://ai-based-chat-application-frontend.onrender.com/"
-                github="https://github.com/sabhyasachisahoo/AI-based-Chat-Application"
+                link="https://codemanttra.onrender.com/"
+                github="https://github.com/sabhyasachisahoo/CodeMantra"
                 type="Featured Project"
               />
             </div>
@@ -142,7 +146,7 @@ const projects = () => {
             <div className="col-span-6 max-sm:col-span-12">
               <Project
                 title="AI Code Review Web App"
-                img={project1}
+                img={project2}
                 summary="React and Node.js-based tool that uses OpenAI API to review code and provide feedback. Responsive design built with Tailwind CSS."
                 link="https://code-review-frontend-dyqx.onrender.com/"
                 github="https://github.com/sabhyasachisahoo/Code-Reviewer"
@@ -153,9 +157,9 @@ const projects = () => {
             <div className="col-span-6 max-sm:col-span-12">
               <Project
                 title="Productivity Dashboard"
-                img={project1}
+                img={project3}
                 summary="A customizable productivity dashboard built with React and Tailwind CSS. Features include time tracking, to-do lists, note-taking, and clean UI for daily task management."
-                link="https://github.com/sabhyasachisahoo/Productivity-Dashboard"
+                link="https://sabhyasachisahoo.github.io/Productivity-Dashboard/"
                 github="https://github.com/sabhyasachisahoo/Productivity-Dashboard"
                 type="Personal Project"
               />
@@ -165,7 +169,7 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Study Buddy – AI-Powered Learning Platform"
-                img={project1}
+                img={project4}
                 summary="Built a learning platform with quiz generation, YouTube summarizer, and a responsive frontend using Tailwind and Vite."
                 link="https://studdy-buddy-frontend.onrender.com/"
                 github="https://github.com/sabhyasachisahoo/StudyBuddy"
@@ -177,10 +181,10 @@ const projects = () => {
             <div className="col-span-6 max-sm:col-span-12">
               <Project
                 title="Portfolio Website"
-                img={project1}
+                img={project5}
                 summary="Responsive portfolio built with React, Tailwind CSS, and Framer Motion. Features smooth animations, project showcases, and a blog-ready structure."
-                link="https://your-portfolio-link.com/"
-                github="https://github.com/sabhyasachisahoo"
+                link="/"
+                github="https://github.com/sabhyasachisahoo/Portfolio"
                 type="Personal Project"
               />
             </div>
