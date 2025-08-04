@@ -54,13 +54,13 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm Sabhyasachi Sahoo, a web developer and UI/UX designer with a passion for creating beautiful, functional, and user-centered digital experiences. With 2 years of experience in the field. I am always looking for new and innovative ways to bring my clients' visions to life.
+                {`Hi, I'm Sabhyasachi Sahoo, a web developer and UI/UX designer with a passion for creating beautiful, functional, and user-centered digital experiences. With 2 years of experience in the field. I am always looking for new and innovative ways to bring my clients' visions to life.`}
               </p>
               <p className=" my-4 font-medium">
-                I believe that design is about more than just making things look pretty – it's about solving problems and creating intuitive, enjoyable experiences for users.
+                {`I believe that design is about more than just making things look pretty – it's about solving problems and creating intuitive, enjoyable experiences for users.`}
               </p>
               <p className="font-medium">
-                Whether I'm working on a website, logic building or learning new tech-stacks, I bring my commitment to design excellence and user-centered thinking to every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                {`Whether I'm working on a website, logic building or learning new tech-stacks, I bring my commitment to design excellence and user-centered thinking to every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.`}
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-black bg-white p-8 max-xl:col-span-4 max-md:order-1 max-md:col-span-8">
