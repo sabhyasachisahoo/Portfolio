@@ -10,6 +10,7 @@ import project2 from "../../public/images/projects/codereview.png";
 import project3 from "../../public/images/projects/productivity.png";
 import project4 from "../../public/images/projects/studybuddy.png";
 import project5 from "../../public/images/projects/portfolio.png";
+import project6 from "../../public/images/projects/fokus.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -191,12 +192,12 @@ const projects = () => {
 
             <div className="col-span-6 max-sm:col-span-12">
               <Project
-                title="Mini Games with SFML (C++)"
-                img={project1}
-                summary="Game programming assignments developed using SFML in C++. Includes Timber and Zombie Arena with game loops, sprites, and collision handling."
-                link="https://github.com/sabhyasachisahoo"
-                github="https://github.com/sabhyasachisahoo"
-                type="Academic Project"
+                title="FOKUS Website"
+                img={project6}
+                summary="Fokus Website."
+                link="https://fokus-1.onrender.com/"
+                github="https://github.com/sabhyasachisahoo/FOKUS"
+                type="Frontend-Hackathon Project"
               />
             </div>
             {/* Library Management Project */}
